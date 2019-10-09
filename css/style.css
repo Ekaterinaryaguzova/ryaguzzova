@@ -403,8 +403,13 @@ header a:hover{
 	justify-content: space-between;
 	flex-wrap: wrap;
 	flex: 1 1 auto;
+	padding-right: 10px;
 }
 .database{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-wrap: wrap;
 	font-family: Open Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -412,7 +417,7 @@ header a:hover{
 	line-height: 28px;
 	color: grey;
 	margin-top: 40px;
-	margin-right: 40px;
+	margin-right: 0;
 }
 .database-line{
 	display: flex;
@@ -451,8 +456,7 @@ header a:hover{
 .your-message{
 	position: relative;
 	min-height: 200px;
-	min-width: 300px;
-	max-width: 650px;
+	max-width: 700px;
 	background: blue;
 	mix-blend-mode: normal;
 	border-radius: 5px;
@@ -460,7 +464,6 @@ header a:hover{
 	padding-left:20px;
 	display: flex;
 	margin: 0;
-	flex: 1 1 300px;
 }
 .send-message{
 	
